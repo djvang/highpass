@@ -363,3 +363,8 @@ summary,
 textarea {
   touch-action: manipulation
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
