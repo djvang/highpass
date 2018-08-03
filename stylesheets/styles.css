@@ -268,7 +268,7 @@
   padding-bottom: 60px;
 }
 
-.grid-content>* {
+.grid-content>.grid-item {
   min-width: 200px;
 }
 
