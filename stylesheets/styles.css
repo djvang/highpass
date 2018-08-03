@@ -170,6 +170,10 @@
   padding-bottom: 60px;
 }
 
+.grid-content> * {
+  min-width: 200px;
+}
+
 .is-inverse {
   color: #fff;
 }
