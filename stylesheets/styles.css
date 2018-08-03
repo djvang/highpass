@@ -211,7 +211,7 @@
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .grid {
@@ -315,5 +315,8 @@
   }
   .heading-tertiary {
     text-align: right;
+  }
+  .heading-tertiary {
+    margin-bottom: 80px;
   }
 }
