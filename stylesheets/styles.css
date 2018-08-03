@@ -1,0 +1,206 @@
+@import './base.css';
+
+.background-primary {
+  background-color: #dd671d;
+}
+
+.background-secondary {
+  background-color: #f2f2f2;
+}
+
+.hero,
+.section {
+  position: relative;
+}
+
+.hero {
+  min-height: 300px;
+}
+
+.hero-background,
+.section-background,
+.hero-overlay,
+.section-overlay  {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hero-background img,
+.section-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay,
+.section-overlay {
+  opacity: 0.5;
+  background-color: #000;
+}
+
+.hero-foreground,
+.section-foreground {
+  position: relative;
+  min-height: inherit;
+  padding: 40px 0;
+}
+
+.section-body {
+  padding: 30px 0;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.content {
+  max-width: 700px;
+}
+
+.content:not(:first-child) {
+  margin-top: 60px;
+}
+
+.lead {
+  font-size: 1.4rem;
+}
+
+.is-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.card {
+  position: relative;
+}
+
+.card-icon {
+  font-size: 60px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.card-title:not(:first-child) {
+  margin-top: 18px;
+}
+
+.card-feature {
+  text-align: center;
+}
+
+.card-feature .card-title {
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-feature .card-icon {
+  color: #dd671d;
+}
+
+.card-info {
+  text-align: center;
+}
+
+.heading {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.heading:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: -15px;
+}
+
+.grid > * {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  min-width: 140px;
+  flex: 1;
+  flex-basis: 1px;
+  position: relative;
+}
+
+
+.grid-features {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+
+.grid-content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.is-inverse {
+  color: #fff;
+}
+
+.is-inverse h1,
+.is-inverse h2,
+.is-inverse h3,
+.is-inverse h4,
+.is-inverse h5,
+.is-inverse h6 {
+  color: inherit;
+}
+
+
+@media (min-width: 640px) {
+
+  .hero-foreground,
+  .section-foreground {
+    padding: 80px 0;
+  }
+
+  .section-body {
+    padding: 60px 0;
+  }
+
+  .card-icon {
+    font-size: 100px;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+
+}
