@@ -393,6 +393,10 @@
   background-color: #f2f2f2;
 }
 
+.section-about-second {
+  background-color: #f2f2f2;
+}
+
 .is-inverse {
   color: #fff;
 }
@@ -409,16 +413,21 @@
 .section-items svg {
   max-width: 100%;
   height: auto;
-  margin: 30px 0;
+  margin: 0 0 30px 0;
   font-family: 'Quicksand', sans-serif;
 }
 
-.section-items > :nth-child(1) {
+.section-items > :nth-child(2) {
   padding-left: 35px;
   padding-right: 35px;
 }
 
 .content-svg {
+  margin-bottom: 60px;
+}
+
+.content-svg-second {
+  margin-top: 60px;
   margin-bottom: 60px;
 }
 
@@ -470,6 +479,10 @@
     margin-bottom: 60px;
   }
 
+  .section-items > :nth-child(2) svg {
+    margin-bottom: 100px;
+  }
+
   .section-contact {
     padding: 100px 0;
   }
@@ -477,6 +490,15 @@
   .content-svg {
     margin-top: -10%;
     margin-bottom: 120px;
+  }
+
+  .content-svg-second {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .hero {
+    min-height: 720px;
   }
   
 }
